@@ -1,16 +1,35 @@
+* {
+  box-sizing: border-box;
+}
+
 body {
-  margin: 2%;
+  background-color: black;
+  margin: auto 25px;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 h1 {
+  background-color: ghostwhite;
+  border: 4px solid darkred;
   text-align: center;
+  display: block;
 }
 
 img {
+  background-color: ghostwhite;
+  border: 4px solid darkred;
   display: block;
-  margin-left: auto;
-  margin-right: auto;
+  margin: 0 auto;
   height: auto;
   width: 400px;
+  padding: 8px;
+}
+
+.desc,
+.ingredients,
+.steps {
+  background-color: ghostwhite;
+  border: 4px solid darkred;
+  padding: 8px;
+  margin: 10px;
 }
